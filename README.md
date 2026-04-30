@@ -44,7 +44,10 @@ Bash
 cd frontend
 npm install
 npm run dev
+
 💡 How it Works (The RAG Pipeline)
+
+
 Extraction: The Node.js backend strips raw text from the uploaded PDF and splits it into manageable chunks.
 
 Embedding: The Gemini Embedding model translates these text chunks into numerical arrays (vectors).
